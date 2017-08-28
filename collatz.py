@@ -3,8 +3,6 @@ def collatz(number):
         while True:
             if number == 1:
                 break
-    #        if number != 1:
-    #            continue
             elif number % 2 == 0:
                 number = number // 2
                 print(number)
