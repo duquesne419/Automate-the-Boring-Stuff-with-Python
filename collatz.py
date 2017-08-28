@@ -1,5 +1,4 @@
 def collatz(number):
-
         while True:
             if number == 1:
                 break
