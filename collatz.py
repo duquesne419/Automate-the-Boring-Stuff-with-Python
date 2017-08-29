@@ -14,10 +14,11 @@ def collatz(number):
 
 def game():
         print('Enter an interger.')
-        guess = input()
+#        guess = input()
         while True:
             try:
-                guess = int(str(guess))
+#                guess = int(str(guess))
+                guess = int(input())
                 break
             except ValueError:
                 print('You did not enter an integer.')
